@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html>
-<link rel="stylesheet" href="admin/css/bootstrap.min.css">
-<body>
+<?php 
+include('include/header.php');
+?>
 
 <?php
 $servername = "localhost";
@@ -19,7 +18,10 @@ if ($conn->connect_error) {
 $sql = "SELECT * FROM plantedtreerecord";
 $result = $conn->query($sql);
 ?>
-<h2 align="Center">List of Projects </h2>
+<div class="container">
+
+</div>
+<h2 class="text-center my-4">List of Projects </h2>
 <table class="table table-hover">
     <tr>   <th>Project ID</th>
         <th>Project Name</th>
@@ -49,5 +51,6 @@ $result = $conn->query($sql);
     $conn->close();
     ?>
 
-</body>
-</html>
+<?php 
+include('include/footer.php');
+?>
