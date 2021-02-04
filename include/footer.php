@@ -1,3 +1,4 @@
+</div>
 <footer class="bg-dark text-white py-5 mt-auto" id="contact">
   <div class="container">
     <div class="row">

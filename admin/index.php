@@ -19,7 +19,7 @@ include('include/header.php');
 					<?php echo $errorMessage; ?>
 				</div>
 			<?php } ?>
-			<form id="loginform" class="form-horizontal" role="form" method="POST" action="">
+			<form id="loginform" role="form" method="POST" action="">
 				<div class="form-group">
 					<label for="email">Email</label>
 					<input type="text" class="form-control" id="email" name="email" required>

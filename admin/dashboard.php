@@ -6,8 +6,6 @@ $PTree = new PlantedTrees();
 $user->adminLoginStatus();
 include('include/header.php');
 ?>
-<title>GO Green Pakistan</title>
-<link rel="stylesheet" href="css/style.css">
 <?php include('include/container.php');?>
 <div class="container contact">	
 	<h2>GO Green Pakistan</h2>	
